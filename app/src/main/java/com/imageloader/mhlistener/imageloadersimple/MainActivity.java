@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 				.angle(80)
 				.resize(400, 600)
 				.centerCrop()
-				.config(Bitmap.Config.RGB_565)
+				.bitmapConfig(Bitmap.Config.RGB_565)
 				.placeholder(R.mipmap.test)
 				.error(R.mipmap.test)
-				.skipLocalCache(true)
+				.skipLocalCache(false)
 				.rotate(0)
 				.into(imageView);
 
