@@ -2,7 +2,7 @@ package com.imageloader.mhlistener.imageloadersimple;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 
 import com.imageloader.mhlistener.imageloaderlib.ImageLoader;
